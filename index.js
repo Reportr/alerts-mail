@@ -34,6 +34,14 @@ module.exports = function(options) {
 
     return {
         id: "mail",
-        execute: exec
+        title: "Mail",
+        execute: exec,
+        options: {
+            to: {
+                type: "text",
+                label: "To",
+                help: "Addresses separated by commas"
+            }
+        }
     };
 };
