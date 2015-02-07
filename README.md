@@ -2,7 +2,7 @@
 
 ### How to add it to your instance?
 
-Add `reportr-alerts-ail` to the `package.json` and load it in your Reportr configuration:
+Add `reportr-alerts-mail` to the `package.json` and load it in your Reportr configuration:
 
 ```js
 reportr.configure({
